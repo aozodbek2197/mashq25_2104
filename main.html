@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="a">
+<input id="b">
+<button onclick="calc()">+</button>
+
+<p id="res"></p>
+
+<script>
+function calc(){
+    let a = Number(document.getElementById("a").value);
+    let b = Number(document.getElementById("b").value);
+    document.getElementById("res").innerText = a + b;
+}
+</script>
+
+</body>
+</html>
